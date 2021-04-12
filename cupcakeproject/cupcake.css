@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+    font-family: Verdana, sans-serif;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 90%;
+    background-color: white;
+}
+
+
+
+header {
+    background-color: #CCCCCC;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1.3% 3%;
+    font-size: 90%;
+}
+
+
+nav {
+    background-color: #0EC8C7;
+    text-align: center;
+    padding: 1.7%;
+
+}
+
+nav a:hover {
+    color: #EC3632;
+
+}
+
+section {
+    background-color: #EC3632;
+    overflow: auto;
+
+}
+
+aside {
+    background-color: #EC3632;
+    width: 20%;
+    float: left;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    font-size: 90%;
+}
+
+aside a:hover {
+    color: #0EC8C7;
+}
+
+aside li {
+    list-style-type: none;
+    padding: 10px 0;
+
+}
+
+article {
+    background-color: white;
+    width: 70%;
+    float: right;
+    padding: 3%;
+}
+
+
+
+
+footer p {
+    font-weight: bold;
+}
+
+footer a {
+    color: navy;
+    padding: 1%;
+}
+
+
+.buy {
+    width: 60%;
+    float: right;
+    padding: 0 0 1% 2%;
+
+}
+
+header img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: #0EC8C7;
+    padding: 11px;
+    font-size: 60%;
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+
+    body {
+        background-color: aqua;
+    }
+
+    nav a {
+        width: 100%;
+        padding: 10px 0;
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    #wrap {
+        width: 100%;
+
+    }
+
+    aside,
+    article {
+        float: none;
+        width: 94%;
+    }
+
+    aside {
+        text-align: center;
+    }
+
+    footer a {
+        font-size: 95%;
+        display: block;
+        padding: 2px;
+        text-align: center;
+    }
+
+}
