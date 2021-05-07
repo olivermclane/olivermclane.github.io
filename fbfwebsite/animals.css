@@ -1,0 +1,34 @@
+section {
+    background-color: #c29953;
+    overflow: auto;
+
+}
+
+aside {
+    background-color: #c29953;
+    width: 20%;
+    float: left;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+}
+
+aside a:hover {
+    color: #524c40;
+}
+
+aside li {
+    list-style-type: none;
+    padding: 10px 0;
+
+}
+
+article {
+    background-color: antiquewhite;
+    width: 70%;
+    float: right;
+    padding: 3%;
+}

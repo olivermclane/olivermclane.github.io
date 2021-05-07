@@ -1,0 +1,27 @@
+section {
+    text-align: center;
+    overflow: auto;
+}
+
+section h1 {
+    text-align: center
+}
+
+
+.column {
+    float: left;
+    width: 31.89%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.column a:hover img {
+
+    box-shadow: 4px 5px 2px grey;
+}
